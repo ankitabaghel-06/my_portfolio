@@ -84,7 +84,13 @@ export const workData = [
         link:'https://github.com/Krishna-262/CineVerse-Blog'
     },
     {
-        title: 'Association for Computing Machinery',
+        title: 'Streamify',
+        description: 'Chat + Video App',
+        bgImage: '/work-3.png',
+        link:'https://github.com/Krishna-262/Streamify'
+    },
+    {
+        title: 'ACM',
         description: 'Executive',
         bgImage: '/work-4.png',
         link:'https://acm-website.vercel.app/'
