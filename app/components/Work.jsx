@@ -35,7 +35,9 @@ const Work = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
                 className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-                Contributed to ACM by organizing coding events and workshops while actively engaging in problem-solving sessions. Developed full-stack platforms using React.js, Node.js, WebSocket, and AI, integrating real-time data analysis.
+                I have done Cisco Virtual Internship, where I gained foundational knowledge in networking, cybersecurity, and real-world tech applications through interactive modules. I also took part in two hackathons, where I built SheSkills, a web platform focused on empowering women in tech by offering curated resources and community support, and contributed to another innovative project tackling real-life challenges. Currently, I am working as a Frontend Development Intern at Governsafe, a civic-tech startup, where I’m building responsive and user-friendly interfaces using React.js and Tailwind CSS, while actively contributing to feature implementation and UI improvements.
+
+
             </motion.p>
 
             <motion.div
@@ -55,9 +57,11 @@ const Work = () => {
                                 <h2 className='font-semibold'>{projects.title}</h2>
                                 <p className='text-sm text-gray-700'>{projects.description}</p>
                             </div>
+                            <a href={projects.link} target="_blank" rel="noopener noreferrer">
                             <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                               <a href={projects.link} target="blank"> <Image src={assets.send_icon} alt='' className='w-5' /></a>
+                                <Image src={assets.send_icon} alt='' className='w-5' />
                             </div>
+                            </a>
                         </div>
 
                     </motion.div>

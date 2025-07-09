@@ -42,7 +42,7 @@ const About = () => {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6 }}
                     className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                    <Image src={assets.profile_img} alt='' className='w-full rounded-3xl' />
+                    <Image src={assets.Photograph} alt='' className='w-full rounded-3xl' />
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0 }}

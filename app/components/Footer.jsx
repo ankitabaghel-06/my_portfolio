@@ -16,17 +16,16 @@ const Footer = () => {
                 <Image src={isDarkMode?assets.logo_dark: assets.logo} alt='' className='w-36 mx-auto mb-2 invisible ' />
                 <div className='w-max flex items-center gap-2 mx-auto'>
                     <Image src={isDarkMode?assets.mail_icon_dark:assets.mail_icon} alt='' className='w-6 ' />
-                    955krishnapratap@gmail.com
+                   ankitabaghel04@gmail.com
                 </div>
             </div>
             <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6 '>
-                <p>© 2025 Krishna Pratap. All rights reserved.</p>
+                <p>© 2025 Ankita Baghel. All rights reserved.</p>
                 <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-                    <li><a target='blank' href="https://www.geeksforgeeks.org/user/955krishna3hl">GeeksForGeeks</a></li>
-                    <li><a target='blank' href="https://codeforces.com/profile/The_Arctic">Codeforces</a></li>
-                    <li><a target='blank' href="https://github.com/Krishna-262">GitHub</a></li>
-                    <li><a target='blank' href="https://www.linkedin.com/in/krishna-pratap-64788326a/">Linkedln</a></li>
-                    <li><a target='blank' href="https://leetcode.com/u/_restart_2024/">Leetcode</a></li>
+                    <li><a target='blank' href="https://www.geeksforgeeks.org/user/0105it2u9bc/">GeeksForGeeks</a></li>
+                    <li><a target='blank' href="https://github.com/ankitabaghel-06">GitHub</a></li>
+                    <li><a target='blank' href="https://www.linkedin.com/in/ankita-baghel-41478b257/">Linkedln</a></li>
+                    <li><a target='blank' href="https://leetcode.com/u/ankitabaghel_06/">Leetcode</a></li>
                 </ul>
             </div>
         </div>

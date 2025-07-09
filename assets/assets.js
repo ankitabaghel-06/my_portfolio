@@ -7,7 +7,7 @@ import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
-import figma from './figma.png';
+
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
@@ -15,7 +15,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import Photograph from './Photograph.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -27,7 +27,7 @@ import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
-import web_icon from './web-icon.png';
+
 import mobile_icon from './mobile-icon.png';
 import ui_icon from './ui-icon.png';
 import graphics_icon from './graphics-icon.png';
@@ -46,7 +46,7 @@ export const assets = {
     project_icon_dark,
     vscode,
     firebase,
-    figma,
+    
     git,
     mongodb,
     right_arrow_white,
@@ -54,7 +54,7 @@ export const assets = {
     logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
+    Photograph,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -66,7 +66,7 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-    web_icon,
+    
     mobile_icon,
     ui_icon,
     graphics_icon,
@@ -78,28 +78,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'CineVerse',
-        description: 'Full-Stack Project',
+        title: 'streamify-UI',
+        description: 'Frontend Project',
         bgImage: '/work-1.png',
-        link:'https://github.com/Krishna-262/CineVerse-Blog'
+        link:'https://disney-clone-d0465.firebaseapp.com/login'
     },
     {
-        title: 'Streamify',
-        description: 'Chat + Video App',
+        title: 'Sheskills',
+        description: 'to-emower-her-future',
         bgImage: '/work-3.png',
-        link:'https://github.com/Krishna-262/Streamify'
+        link:'https://sheskills.vercel.app/'
     },
     {
-        title: 'ACM',
-        description: 'Executive',
-        bgImage: '/work-4.png',
-        link:'https://acm-website.vercel.app/'
+        title: 'StayBnb',
+        description: 'To browse, book, and list vacation rentals across the globe',
+        bgImage: '/work-4.png'
+        
     },
     {
-        title: 'Stringa',
-        description: 'Art-Gallery Site',
+        title: 'weather forecast',
+        description: 'frontend project',
         bgImage: '/work-3.png',
-        link:'https://atish-57.github.io/STRINJA/'
+        link:'https://github.com/ankitabaghel-06/CODTECH-TASK1'
     },
     // {
     //     // title: 'UI/UX designing',
@@ -109,18 +109,18 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Machine Learning', description: 'Skilled in model building and data analysis ...', link: 'https://drive.google.com/file/d/1SU-H9wgKdnpPtqvfYkNXrHspeNaRkkp0/view?usp=drive_link' },
-    { icon: assets.mobile_icon, title: 'Web Development', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.ui_icon, title: 'Data Structures & Algorithms (DSA)', description: 'Strong problem-solving and optimization skills ...', link: 'https://www.geeksforgeeks.org/user/955krishna3hl/' },
-    { icon: assets.graphics_icon, title: 'Competitive Programming', description: 'Efficient in algorithmic problem-solving and coding ...', link: 'https://codeforces.com/profile/The_Arctic' },
+    
+    { icon: assets.mobile_icon, title: 'Web Development', description: 'Web development is the process of building, programming...', link: 'https://sheskills.vercel.app/' },
+    { icon: assets.ui_icon, title: 'Data Structures & Algorithms (DSA)', description: 'Strong problem-solving and optimization skills ...', link: 'https://www.geeksforgeeks.org/user/0105it2u9bc/' },
+    { icon: assets.graphics_icon, title: 'Competitive Programming', description: 'Efficient in algorithmic problem-solving and coding ...', link: 'https://leetcode.com/u/ankitabaghel_06/' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'C++, Python, React Js, Next Js, JavaScript, CSS' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Electronics & Communication' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'C++,Java,JavaScript' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built real world projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.git
 ];
