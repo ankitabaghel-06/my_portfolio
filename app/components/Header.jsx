@@ -36,8 +36,8 @@ const Header = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
-                className='max-w-2xl mx-auto font-ovo'>I am a passionate Software Developer with expertise in Data Structures, Algorithms, and Full-Stack Development , I specialize in building AI-driven applications, integrating
-                Deep Learning and Machine Learning models and optimizing performance for Real-Time Data-Analysis .
+                className='max-w-2xl mx-auto font-ovo'>I am a passionate Software Developer with expertise in Data Structures, Algorithms, and Full-Stack Development , I am specialized in building MERN based projects
+                and optimizing performance for Real-Time Data-Analysis .
             </motion.p>
 
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4 '>

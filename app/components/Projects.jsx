@@ -27,7 +27,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
                 className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-                 Experienced in Machine Learning (ML), Web Development, Data Structures & Algorithms (DSA), and Competitive Programming (CP). Proficient in building scalable applications, solving complex problems, and optimizing performance across various domains.
+                 Experienced in Web Development, Data Structures & Algorithms (DSA), and Competitive Programming (CP). Proficient in building scalable applications, solving complex problems, and optimizing performance across various domains.
             </motion.p>
 
             <motion.div
